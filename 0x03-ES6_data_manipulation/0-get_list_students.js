@@ -1,4 +1,4 @@
-function getListStudents() {
+const getListStudents = () => {
     return [
         {
             id : 1,
