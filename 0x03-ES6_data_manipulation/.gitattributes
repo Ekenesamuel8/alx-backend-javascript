@@ -1,0 +1,23 @@
+# Set the default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.js text
+*.ts text
+*.json text
+*.md text
+*.html text
+*.css text
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Declare binary files to be untouched by Git's end-of-line conversion mechanism.
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
